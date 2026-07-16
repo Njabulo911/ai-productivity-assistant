@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Meeting Notes Summarizer — L&L Services" },
       {
         property: "og:description",
-        content: "Turn messy meeting notes into a clean brief with actions and owners.",
+        content: "Paste raw meeting notes and get a concise summary with key points, decisions, and action items.",
       },
     ],
   }),

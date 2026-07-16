@@ -80,21 +80,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "L&L Services — AI Workplace Productivity Assistant" },
+      { title: "Meeting Notes Summarizer — L&L Services" },
       {
         name: "description",
         content:
-          "AI-powered workplace productivity tools for L&L Services: summarise meeting notes, plan your day, and chat with an AI workplace assistant.",
+          "Paste raw meeting notes and get a concise summary with key points, decisions, and action items.",
       },
       { name: "author", content: "L&L Services" },
-      { property: "og:title", content: "L&L Services — AI Workplace Assistant" },
+      { property: "og:title", content: "Meeting Notes Summarizer — L&L Services" },
       {
         property: "og:description",
         content:
-          "Summarise meetings, plan your work, and get AI help with day-to-day workplace tasks.",
+          "Paste raw meeting notes and get a concise summary with key points, decisions, and action items.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Meeting Notes Summarizer — L&L Services" },
+      { name: "twitter:description", content: "Paste raw meeting notes and get a concise summary with key points, decisions, and action items." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/17473ee9-65e4-4a6f-9592-538b2b9cef51/id-preview-4720c7ba--d03499e4-0f8c-42ea-ade8-56abd495bb29.lovable.app-1784206874658.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/17473ee9-65e4-4a6f-9592-538b2b9cef51/id-preview-4720c7ba--d03499e4-0f8c-42ea-ade8-56abd495bb29.lovable.app-1784206874658.png" },
     ],
     links: [
       {
