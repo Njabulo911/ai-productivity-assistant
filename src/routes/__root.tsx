@@ -133,11 +133,11 @@ function RootComponent() {
         <div className="flex min-h-screen w-full bg-background">
           <AppSidebar />
           <div className="flex flex-1 flex-col">
-            <header className="header-gradient flex h-14 items-center gap-3 border-b border-border/40 px-4 shadow-sm">
-              <SidebarTrigger />
+            <header className="header-gradient flex h-14 items-center gap-3 border-b border-white/20 px-4 text-white shadow-md">
+              <SidebarTrigger className="text-white hover:bg-white/10 hover:text-white" />
               <div className="flex flex-col leading-tight">
-                <span className="text-sm font-semibold text-foreground">L&amp;L Services</span>
-                <span className="text-xs text-muted-foreground">
+                <span className="text-sm font-semibold text-white">L&amp;L Services</span>
+                <span className="text-xs text-white/80">
                   AI Workplace Productivity Assistant
                 </span>
               </div>
