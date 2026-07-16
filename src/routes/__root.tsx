@@ -133,7 +133,7 @@ function RootComponent() {
         <div className="flex min-h-screen w-full bg-background">
           <AppSidebar />
           <div className="flex flex-1 flex-col">
-            <header className="flex h-14 items-center gap-3 border-b bg-background px-4">
+            <header className="header-gradient flex h-14 items-center gap-3 border-b border-border/40 px-4 shadow-sm">
               <SidebarTrigger />
               <div className="flex flex-col leading-tight">
                 <span className="text-sm font-semibold text-foreground">L&amp;L Services</span>
